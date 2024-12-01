@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background: brown;
+    padding: 17px;
+    /* display: flex; */
+    display: inline-flex;
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    flex-direction: column-reverse;
+}
+
+.item{
+    background: coral;
+    padding: 10px;
+    margin: 7px;
+}
